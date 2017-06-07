@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/bootstrap.js" ></script>
+
+  <link rel="stylesheet" href="./css/bootstrap-theme.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/custom-bootstrap.css">
+  <link rel="stylesheet" href="./css/custom-bootstrap-navbar.css">
+  <link rel="stylesheet" href="./css/custom-bootstrap-buttons.css">
+  <link rel="stylesheet" href="./css/custom-bootstrap-forms.css">
+  <link rel="stylesheet" href="./css/custom-bootstrap-tables.css">
+  <link rel="stylesheet" href="./css/custom-bootstrap-modal.css">
+  <link rel="stylesheet" href="./css/custom-bootstrap-labels.css">
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-icon"><img src ='./images/logo_iconAsset 3@3x.png' width="30px"></a>
+        <a class="navbar-brand" href="#">arctrade</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Contact <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Market</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Customer <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <div class="row">
+                  <a class="title" href="#">New</a>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-sm-12 col-lg-12">
+                      <li><a href="#">Customer List</a></li>
+                  </ul>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-sm-12 col-lg-12">
+                      <li><a href="#">Add Customer</a></li>
+                  </ul>
+              </div>
+              <div class="row">
+                  <a class="title" href="#">Pipeline</a>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-sm-12 col-md-12">
+                      <li><a href="#">Customer List</a></li>
+                      <li><a href="#">Credit Approval</a></li>
+                      <li><a href="#">Legal Accounts</a></li>
+                  </ul>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-sm-12 col-lg-12">
+                      <li><a href="#">LDC Accounts</a></li>
+                      <li><a href="#">Usage</a></li>
+                      <li><a href="#">Pricing</a></li>
+                  </ul>
+              </div>
+              <div class="row">
+                  <a class="title" href="#">Existing</a>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-sm-12 col-lg-12">
+                      <li><a href="#">Customer List</a></li>
+                      <li><a href="#">Contract</a></li>
+                  </ul>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-sm-12 col-lg-12">
+                      <li><a href="#">Account Care</a></li>
+                      <li><a href="#">Billing</a></li>
+                  </ul>
+              </div>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><img src ='./images/mailAsset 2@3x.png' width="30px"></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lee Chao <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="body-container">
+    <div class="component">
+      <div class="component-header">
+        <h1>New Customer List</h1>
+        <button data-toggle="modal" type="button" data-target="#myModal" class="btn btn-default">Add Customer</button>
+      </div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h6 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Rejected
+              </a>
+            </h6>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="table-responsive">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Electric Company</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right">05 / 29 / 17</td>
+                      <td class="text-right"><span class="label label-default">P</span></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-default">Edit</button></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>Electric Company</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right">05 / 29 / 17</td>
+                      <td class="text-right"><span class="label label-default">P</span></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-default">Edit</button></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>Electric Company</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right">05 / 29 / 17</td>
+                      <td class="text-right"><span class="label label-default">P</span></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-default">Edit</button></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>Electric Company</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right">05 / 29 / 17</td>
+                      <td class="text-right"><span class="label label-default">P</span></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-default">Edit</button></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h6 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                Pending
+              </a>
+            </h6>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="table-responsive">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Electric Company</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right">05 / 29 / 17</td>
+                      <td class="text-right"><span class="label label-default">P</span></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-success">Approve</button></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-danger">Reject</button></td>
+                    </tr>
+                    <tr>
+                      <td>Electric Company</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right">05 / 29 / 17</td>
+                      <td class="text-right"><span class="label label-default">P</span></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-success">Approve</button></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-danger">Reject</button></td>
+                    </tr>
+                    <tr>
+                      <td>Electric Company</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right">05 / 29 / 17</td>
+                      <td class="text-right"><span class="label label-default">P</span></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-success">Approve</button></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-danger">Reject</button></td>
+                    </tr>
+                    <tr>
+                      <td>Electric Company</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="text-right">05 / 29 / 17</td>
+                      <td class="text-right"><span class="label label-default">P</span></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-success">Approve</button></td>
+                      <td class="text-right col-lg-1"><button type="button" class="btn btn-danger">Reject</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="component">
+      <div class="component-header">
+        <h1>Issue List</h1>
+      </div>
+      <div class="col-md-4 col-lg-12">
+        <div class="form-group col-md-4 col-lg-3">
+          <label for="sel1">State Incorporated</label>
+          <select class="form-control" id="sel1">
+            <option class="placeholder" value="" disabled selected>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table id="issue-table" class="table">
+          <thead>
+            <tr>
+              <th>Sender</th>
+              <th>Status</th>
+              <th>Type</th>
+              <th>Customer Name</th>
+              <th>Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-info">Open</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-success">Approved</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-danger">Rejected</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-default">Closed</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-default">P</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-default">P</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-default">P</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-default">P</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+            <tr class='clickable-row' data-href='url://'>
+              <td><a href="">LDC Analyst</a></td>
+              <td><span class="label label-default">P</span></td>
+              <td>Unsolicited Drop</td>
+              <td>D-Lab Corp</td>
+              <td>2d</td>
+            </tr>
+          </tbody>
+      </div>
+    </div>
+
+    <!-- Script to make table row clickable -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#issue-table tr').click(function() {
+            var href = $(this).find("a").attr("href");
+            if(href) {
+                window.location = href;
+            }
+        });
+      });
+    </script>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title">Add New Customer</h4>
+              </div>
+
+              <div class="modal-body">
+                <div>
+                </div>
+                  <form id="newCustomer" method="post" class="form-horizontal">
+                    <div class="form-group col-md-12 col-lg-12">
+                      <div class="form-title">
+                        <h4>Business Info</h4>
+                      </div>
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="sel1">Business Type</label>
+                      <select class="form-control" id="sel1">
+                        <option class="placeholder" value="" disabled selected>Select</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="sel1">Business Category</label>
+                      <select class="form-control" id="sel1">
+                        <option class="placeholder" value="" disabled selected>Select</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="sel1">Corporation Form</label>
+                      <select class="form-control" id="sel1">
+                        <option class="placeholder" value="" disabled selected>Select</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="contract_lbe">Contract LBE</label>
+                      <input placeholder="optional" type="text" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="duns">DUNS Number</label>
+                      <input type="number" class="form-control" id="pwd">
+                    </div>
+
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="taxId">Federal Tax ID</label>
+                      <input type="number" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="sic">SIC Code</label>
+                      <input type="number" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="year">Year Established</label>
+                      <input type="number" class="form-control" id="pwd">
+                    </div>
+
+                    <!--Business Address -->
+                    <div class="form-group col-md-12 col-lg-12">
+                      <div class="form-title">
+                        <h4>Address</h4>
+                      </div>
+                    </div>
+
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="street_address">Street Address</label>
+                      <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="street_address_cont">Street Address Cont.</label>
+                      <input type="text" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="city">City </label>
+                      <input type="text" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="sel1">State</label>
+                      <select class="form-control" id="sel1">
+                        <option class="placeholder" value="" disabled selected>Select</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="sel1">State Incorporated</label>
+                      <select class="form-control" id="sel1">
+                        <option class="placeholder" value="" disabled selected>Select</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group col-md-6 col-lg-4">
+                      <label for="zipcode">Zip Code </label>
+                      <input type="number" class="form-control" id="pwd">
+                    </div>
+
+                    <div class="form-buttons col-md-12 col-lg-12">
+                      <button type="submit" class="btn btn-success">Submit</button>
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+</body>
+
+</html>
+
+
+
+<!-- <ul id="multicol-menu" class="nav pull-right">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">MultiCol Menu <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li>
+                <div class="row" style="width: 400px;">
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test1-1</a></li>
+                        <li><a href="#">test1-2</a></li>
+                        <li><a href="#">test1-3</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test2-1</a></li>
+                        <li><a href="#">test2-2</a></li>
+                        <li><a href="#">test2-3</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test3-1</a></li>
+                        <li><a href="#">test3-2</a></li>
+                        <li><a href="#">test3-3</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul> -->

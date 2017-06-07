@@ -1,0 +1,35 @@
+
+
+.modal-dialog{
+  width: 80%;
+  max-width: 1000px;
+}
+
+.modal-content{
+  border-radius: 0px;
+}
+
+.modal {
+  overflow: visible;
+}
+
+.modal-header{
+  background-color: #E9E9E9
+}
+
+.modal-title{
+  padding-left: 10px;
+}
+
+.modal-body {
+  overflow-y: visible !important;
+}
+
+/* Extra Small Devices, Phones */
+  @media only screen and (min-width : 320px) and (max-width: 480px) {
+
+    .modal-dialog{
+      width: auto;
+    }
+
+}

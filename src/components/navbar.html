@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/bootstrap.js" ></script>
+
+  <link rel="stylesheet" href="../css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-buttons.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-forms.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-tables.css">
+  <link rel="stylesheet" href="../fonts/stylesheet.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-icon"><img src ='../images/logo_iconAsset 3@3x.png' width="30px"></a>
+        <a class="navbar-brand" href="#">arctrade</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Contact <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Market</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Customer</a>
+            <ul class="dropdown-menu">
+              <div class="row">
+                  <a class="title" href="#">New</a>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-lg-12">
+                      <li><a href="#">Customer List</a></li>
+                  </ul>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-lg-12">
+                      <li><a href="#">Add Customer</a></li>
+                  </ul>
+              </div>
+              <div class="row">
+                  <a class="title" href="#">Pipeline</a>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-md-12">
+                      <li><a href="#">Customer List</a></li>
+                      <li><a href="#">Credit Approval</a></li>
+                      <li><a href="#">Legal Accounts</a></li>
+                  </ul>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-lg-12">
+                      <li><a href="#">LDC Accounts</a></li>
+                      <li><a href="#">Usage</a></li>
+                      <li><a href="#">Pricing</a></li>
+                  </ul>
+              </div>
+              <div class="row">
+                  <a class="title" href="#">Existing</a>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-lg-12">
+                      <li><a href="#">Customer List</a></li>
+                      <li><a href="#">Contract</a></li>
+                  </ul>
+                  <ul class="list-unstyled sub-menu col-xs-6 col-lg-12">
+                      <li><a href="#">Account Care</a></li>
+                      <li><a href="#">Billing</a></li>
+                  </ul>
+              </div>
+              <!-- <li><a href="#">Contacts</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#">Contacts</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Customer</a></li>
+              <li><a href="#">Performance</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Market</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li> -->
+            </ul>
+          </li>
+        </ul>
+        <!-- <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form> -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="body-container">
+    <div class="component table-responsive">
+      <div class="component-header">
+        <h1>New Customer List</h1>
+        <button type="button" class="btn btn-default">Add Customer</button>
+      </div>
+      <div class="col-lg-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Market Area</th>
+              <th>Profile Class</th>
+              <th>Contract Price</th>
+              <th>Term Months</th>
+              <th>Rewards</th>
+              <th>Termination Fee</th>
+              <th>Pricing Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fixed Lock 12</td>
+              <td>NY</td>
+              <td>ConEd SC1 Zone J</td>
+              <td>$7.6&cent;</td>
+              <td>12</td>
+              <td>$50</td>
+              <td>$100</td>
+              <td><button type="button" class="btn btn-sm btn-info">Edit</button> <button type="button" class="btn btn-sm btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+              <td>Fixed Lock 12</td>
+              <td>NY</td>
+              <td>ConEd SC1 Zone J</td>
+              <td>$7.6&cent;</td>
+              <td>12</td>
+              <td>$50</td>
+              <td>$100</td>
+              <td><button type="button" class="btn btn-sm btn-info">Edit</button> <button type="button" class="btn btn-sm btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+              <td>Fixed Lock 12</td>
+              <td>NY</td>
+              <td>ConEd SC1 Zone J</td>
+              <td>$7.6&cent;</td>
+              <td>12</td>
+              <td>$50</td>
+              <td>$100</td>
+              <td><button type="button" class="btn btn-sm btn-info">Edit</button> <button type="button" class="btn btn-sm btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+              <td>Fixed Lock 12</td>
+              <td>NY</td>
+              <td>ConEd SC1 Zone J</td>
+              <td>$7.6&cent;</td>
+              <td>12</td>
+              <td>$50</td>
+              <td>$100</td>
+              <td><button type="button" class="btn btn-sm btn-info">Edit</button> <button type="button" class="btn btn-sm btn-danger">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
+
+
+
+<!-- <ul id="multicol-menu" class="nav pull-right">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">MultiCol Menu <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li>
+                <div class="row" style="width: 400px;">
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test1-1</a></li>
+                        <li><a href="#">test1-2</a></li>
+                        <li><a href="#">test1-3</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test2-1</a></li>
+                        <li><a href="#">test2-2</a></li>
+                        <li><a href="#">test2-3</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test3-1</a></li>
+                        <li><a href="#">test3-2</a></li>
+                        <li><a href="#">test3-3</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul> -->

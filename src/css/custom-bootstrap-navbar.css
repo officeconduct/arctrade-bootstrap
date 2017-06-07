@@ -1,0 +1,165 @@
+/* Navbar styles */
+
+.navbar{
+  margin-bottom: 0px;
+  border: 0px;
+}
+
+.dropdown-menu{
+  background-color: #303030;
+  min-width: 180px;
+  border: 0px;
+}
+
+.dropdown-menu > li > a {
+  padding: 6px 20px;
+
+}
+
+.dropdown-menu .title {
+  color: white;
+  width: 100%;
+  float: left;
+  padding-left: 30px;
+  font-size: 11pt;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.dropdown-menu .row > ul > li{
+  padding: 7px 30px;
+  color: #fff;
+}
+
+.dropdown-menu .row > ul > li > a{
+  color: #fff;
+}
+
+.dropdown-menu .row > ul > li:hover{
+  background-color: #464646;
+}
+
+`/*.dropdown:hover .dropdown-menu {
+  display: block;
+}*/`
+
+
+.navbar-brand{
+  padding: 15px 20px;
+}
+
+.navbar > a {
+  color: #fff;
+}
+
+.navbar-brand, .navbar-nav > li > a{
+  text-shadow: none;
+  color: #fff;
+}
+
+.navbar-default{
+  background-image: none;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a{
+  background-image: none;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+  background-color: #303030;
+  background-image: none;
+}
+
+.nav .navbar-nav > li .active > a{
+  font-weight: bold;
+}
+
+.navbar-icon {
+  float: left;
+  /*background: red;*/
+  display: flex;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Extra Small Devices, Phones */
+    @media only screen and (min-width : 320px) and (max-width: 480px) {
+
+      .navbar-nav{
+        /*display: flex;
+        flex-wrap: wrap;*/
+        margin: 0px;
+      }
+
+      .navbar-default{
+        /*height: 100vh*/
+      }
+
+      .navbar-collapse.in{
+        overflow-y: visible;
+        height: 100vh
+      }
+
+      .nav > li{
+        width: 100%;
+        background-color: #000000;
+        padding: 5px 0px;
+      }
+
+      .nav > li > a{
+        font-size: 15pt
+      }
+
+      .nav > li .active{
+        background-color: #2d2d2d;
+      }
+
+      /*.dropdown-menu{
+        display: block;
+      }*/
+      .dropdown .open .dropdown-menu{
+        background: green
+      }
+
+      .dropdown-menu .row {
+        margin-bottom: 20px;
+        width: auto;
+      }
+
+      .dropdown-menu .row > ul > li{
+        padding: 7px 10px;
+      }
+
+      .dropdown-menu .title {
+        padding-left: 30px;
+        font-size: 11pt;
+        font-weight: bold;
+      }
+
+      .navbar-nav > li > .a{
+        font-size: 20pt;
+      }
+
+      .sub-menu {
+        padding-left: 35px;
+      }
+      .sub-menu > li {
+        padding: 5px 10px;
+        color: #fff
+      }
+
+      .sub-menu .title {
+        font-weight: bold;
+      }
+
+
+    }
