@@ -9,6 +9,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 h1{
   font-size: 14pt;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+
+h2{
+  font-size: 13pt;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+
+h3{
+  font-size: 13pt;
+  font-weight: 200
   letter-spacing: 0.15px;
 }
 
@@ -21,6 +34,11 @@ h6{
   font-size: 10px;
   letter-spacing: 0.2px;
   font-weight: 600;
+}
+
+strong{
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 a{
@@ -40,6 +58,7 @@ a:hover, a:focus{
   flex-direction: column;
   background-color: #fff;
   margin-bottom: 20px;
+  box-shadow: 0 10px 10px -5px #bababa;
 }
 
 .component-header{
@@ -59,4 +78,43 @@ a:hover, a:focus{
 
 .component-header > button{
   float: right;
+}
+
+.component-body{
+  padding: 15px
+}
+
+.align-right{
+  margin-left: auto;
+}
+
+@media only screen and (min-width : 320px) and (max-width: 480px) {
+  h1{
+    font-size: 13pt;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+  }
+
+  h2{
+    font-size: 13pt;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+  }
+
+  h3{
+    font-size: 13pt;
+    font-weight: 200
+    letter-spacing: 0.15px;
+  }
+
+  h4{
+    font-size: 12pt;
+    font-weight: 600
+  }
+
+  h6{
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+  }
 }

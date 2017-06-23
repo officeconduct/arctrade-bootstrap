@@ -1,5 +1,3 @@
-
-
 .modal-dialog{
   width: 80%;
   max-width: 1000px;
@@ -23,6 +21,12 @@
 
 .modal-body {
   overflow-y: visible !important;
+}
+
+.modal-value{
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
 }
 
 /* Extra Small Devices, Phones */

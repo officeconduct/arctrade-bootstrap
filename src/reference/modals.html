@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/bootstrap.js" ></script>
+
+  <!-- syntax highligher -->
+  <script src="../plugins/prism.js"></script>
+  <link rel="stylesheet" href="../plugins/prism.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-navbar.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-buttons.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-forms.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-tables.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-modal.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-labels.css">
+  <link rel="stylesheet" href="../fonts/stylesheet.css">
+
+  <link rel="stylesheet" href="../reference/reference.css">
+
+</head>
+
+<body style="background-color: #d6d6d6;">
+  <nav class="navbar yamm navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-icon"><img src ='../images/arctrade_logo.png' width="30px"></a>
+        <a class="navbar-brand" href="index.html">arctrade <strong>bootstrap styles</strong></a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="components.html">Components</a></li>
+          <li class="active"><a href="modals.html">Modals</a></li>
+          <li><a href="navbar.html">Navbar</a></li>
+          <li><a href="inputs.html">Inputs</a></li>
+          <li><a href="tables.html">Tables</a></li>
+          <li><a href="buttons.html">Buttons</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="body-container">
+
+    <div class="component">
+      <div class="component-header">
+        <h1>Dropdown Selection</h1>
+      </div>
+      <div class="component-body">
+        <button data-toggle="modal" type="button" data-target="#myModal" class="btn btn-default">Launch Modal</button>
+      </div>
+    </div>
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                      <h4 class="modal-title">Add New Customer</h4>
+                  </div>
+
+                  <div class="modal-body">
+                    Test Copy
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+    <pre>
+      <code class="language-markup">
+        &lt;div class="form-group col-sm-2 col-md-2 col-lg-2"&gt;
+          &lt;label for="*******">Selection Title&lt;/label&gt;
+          &lt;div class="select-dropdown"&gt;
+            &lt;select class="form-control" id="*******" required&gt;
+              &lt;option class="placeholder" value="" disabled selected>Select&lt;/option&gt;
+              &lt;option>Option 1&lt;/option&gt;
+              &lt;option>Option 2&lt;/option&gt;
+              &lt;option>Option 3&lt;/option&gt;
+              &lt;option>Option 4&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      </code>
+      <b style="float:right">VERSION: 1.0.0 (June 7, 2017) </b>
+    </pre>
+
+    <hr/>
+
+  </div>
+</body>
+
+
+
+</html>
+
+
+
+<!-- <ul id="multicol-menu" class="nav pull-right">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">MultiCol Menu <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li>
+                <div class="row" style="width: 400px;">
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test1-1</a></li>
+                        <li><a href="#">test1-2</a></li>
+                        <li><a href="#">test1-3</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test2-1</a></li>
+                        <li><a href="#">test2-2</a></li>
+                        <li><a href="#">test2-3</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test3-1</a></li>
+                        <li><a href="#">test3-2</a></li>
+                        <li><a href="#">test3-3</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul> -->

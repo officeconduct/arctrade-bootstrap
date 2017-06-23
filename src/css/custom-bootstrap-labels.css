@@ -1,6 +1,51 @@
 .label{
   border-radius: 0px;
   padding: 12px;
-  letter-spacing:  0.4px;
-  font-size: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 9pt;
+  letter-spacing: 2.49px;
+  color: #000000;
+}
+
+.label-default{
+  background: none;
+  border: 1px solid #C3C3C3;
+  color: #C3C3C3;
+}
+
+.label-primary{
+  background: none;
+  border: 1px solid #25B16C;
+  color: #25B16C;
+}
+
+.label-info{
+  background: none;
+  border: 1px solid #76B9EF;
+  color: #76B9EF;
+}
+
+.label-success{
+  background: none;
+  border: 1px solid #76EFB2;
+  color: #76EFB2;
+}
+
+.label-warning{
+  background: none;
+  border: 1px solid #EFD376;
+  color: #EFD376;
+}
+
+.label-danger{
+  background: none;
+  border: 1px solid #EF7676;
+  color: #EF7676;
+}
+
+.status-label{
+  font-weight: 600;
+  font-size: 14pt;
+  padding-top: 10px;
 }

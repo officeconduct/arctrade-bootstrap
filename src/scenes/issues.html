@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/bootstrap.js" ></script>
+
+  <!-- syntax highligher -->
+  <script src="../plugins/prism.js"></script>
+  <link rel="stylesheet" href="../plugins/prism.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-navbar.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-buttons.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-forms.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-tables.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-modal.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-labels.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-filter.css">
+  <link rel="stylesheet" href="../css/custom-bootstrap-panels.css">
+  <link rel="stylesheet" href="../fonts/stylesheet.css">
+
+  <link rel="stylesheet" href="../reference/reference.css">
+
+</head>
+
+<body style="background-color: #d6d6d6;">
+  <nav class="navbar yamm navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-demo" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-icon"><img src ='../images/arctrade_logo.png' width="30px"></a>
+        <a class="navbar-brand" href="index.html">arctrade</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-demo">
+        <ul class="nav navbar-nav">
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Issues <b class="caret"></b></a>
+            <ul class="dropdown-menu ">
+              <li>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <strong>Issue List</strong>
+                  </li>
+                  <li class=""><a href="#"> Add Issue</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Contacts <b class="caret"></b></a>
+            <ul class="dropdown-menu ">
+              <li>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <strong>Contact List</strong>
+                  </li>
+                  <li class=""><a href="#"> Add Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Customers <b class="caret"></b></a>
+            <ul class="dropdown-menu ">
+              <li>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <strong>New</strong>
+                  </li>
+                  <li class=""><a href="#">Customer List</a></li>
+                  <li class=""><a href="#">Add Customer</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <strong>Pipeline</strong>
+                  </li>
+                  <li class=""><a href="#">Customer List</a></li>
+                  <li class=""><a href="#">LDC Accounts</a></li>
+                  <li class=""><a href="#">Usage</a></li>
+                  <li class=""><a href="#">Pricing</a></li>
+                  <li class=""><a href="#">New Quote</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <strong>Existing</strong>
+                  </li>
+                  <li class=""><a href="#">Customer List</a></li>
+                  <li class=""><a href="#">Contract</a></li>
+                  <li class=""><a href="#">Account Care</a></li>
+                  <li class=""><a href="#">Billing</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="list-unstyled">
+                  <li class="single-item">
+                    <strong><a href="#">Item 1 Heading</a></strong>
+                  </li>
+                  <li class="single-item">
+                    <strong><a href="#">Item 1 Heading</a></strong>
+                  </li>
+                  <li class="single-item">
+                    <strong><a href="#">Item 1 Heading</a></strong>
+                  </li>
+                  <li class="single-item">
+                    <strong><a href="#">Item 1 Heading</a></strong>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Performance <b class="caret"></b></a>
+            <ul class="dropdown-menu ">
+              <li>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <strong><a href="#">Dashboard Reports</a></strong>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Markets <b class="caret"></b></a>
+            <ul class="dropdown-menu single-column">
+              <li>
+                <ul class="single-item list-unstyled">
+                  <li>
+                    <strong><a href="#">Commodity Price</a></strong>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="single-item list-unstyled">
+                  <li>
+                    <strong><a href="#">ISO Tariff</a></strong>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="single-item list-unstyled">
+                  <li class="">
+                    <strong><a href="#">LDC Tariff</a></strong>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="single-item list-unstyled">
+                  <li class="">
+                    <strong><a href="#">State Regulations</a></strong>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><img src="../images/mail_icon_notification.png" width="25px"></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="account-icon" src="../images/account_icon.png" width="15px"><span class="user-name">Lesley Yang</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu single-column">
+              <li>
+                <ul class="single-item list-unstyled">
+                  <li>
+                    <strong><a href="#">My Account</a></strong>
+                  </li>
+                  <li>
+                    <strong><a href="#">Settings</a></strong>
+                  </li>
+                  <li>
+                    <strong><a href="#">Logout</a></strong>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="body-container">
+    <div class="component">
+      <div class="component-header">
+        <h1>Issues</h1>
+        <button data-toggle="modal" type="button" data-target="#myModal" class="btn btn-default">Add Issue</button>
+      </div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h6 class="panel-title">
+              <a class="accordion-toggle collapsed" aria-expanded="false" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Filter
+              </a>
+            </h6>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="component-filter">
+                <!-- <div class="gradient top-gr"></div> -->
+                <div class="filter-body">
+
+                  <div class="form-group col-sm-3 col-lg-3">
+                    <label for="*******">Description Keywords</label>
+                    <input type="text" class="form-control" id="*******">
+                  </div>
+                  <div class="form-group col-sm-3 col-lg-3">
+                    <label for="*******">Assigned To</label>
+                    <input type="text" class="form-control" id="*******">
+                  </div>
+                  <div class="form-group col-sm-3 col-md-3 col-lg-3">
+                    <label for="*******">Issue Type</label>
+                    <div class="select-dropdown">
+                      <select class="form-control" id="*******" required>
+                        <option class="placeholder" value="" disabled selected>Select</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group col-sm-3 col-md-3 col-lg-3">
+                    <label for="*******">Issue Status</label>
+                    <div class="select-dropdown">
+                      <select class="form-control" id="*******" required>
+                        <option class="placeholder" value="" disabled selected>Select</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="text-right">
+                      <button type="button" class="btn btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">Include Archived</button>
+                      <button data-toggle="" type="button" data-target="" class="btn btn-default">Apply</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+
+
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Issue</th>
+                <th>Type</th>
+                <th>Age</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class='clickable-row' data-href='issue_detail.html'>
+                <td>
+                  <strong>ABC Trading</strong>
+                  <div>We are having a problem with billing</div>
+                </td>
+                <td><span class="label label-info">B</span></td>
+                <td>48 days</td>
+                <td>Michael Li</td>
+                <td><span class="label label-default">Approved</span></td>
+              </tr>
+              <tr class='clickable-row' data-href='url://'>
+                <td>
+                  <strong>Energy Co</strong>
+                  <div>We are having a problem with billing</div>
+                </td>
+                <td><span class="label label-info">B</span></td>
+                <td>12 days</td>
+                <td>Lee Chao</td>
+                <td><span class="label label-danger">Open</span></td>
+              </tr>
+              <tr class='clickable-row' data-href='url://'>
+                <td>
+                  <strong>Energy Co</strong>
+                  <div>We are having a problem with billing</div>
+                </td>
+                <td><span class="label label-info">T</span></td>
+                <td>20 days</td>
+                <td>Lesley Yang</td>
+                <td><span class="label label-default">Approved</span></td>
+              </tr>
+              <tr class='clickable-row' data-href='url://'>
+                <td>
+                  <strong>ABC Trading</strong>
+                  <div>We are having a problem with billing</div>
+                </td>
+                <td><span class="label label-info">B</span></td>
+                <td>48 days</td>
+                <td>Michael Li</td>
+                <td><span class="label label-default">Approved</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="****" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Create New Issue</h4>
+          </div>
+          <div class="modal-body">
+            <div style="height:700px">
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">Status</label>
+                <div class="status-label draft">Draft</div>
+              </div>
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">Issue Type</label>
+                <div class="select-dropdown">
+                  <select class="form-control" id="*******" required>
+                    <option class="placeholder" value="" disabled selected>Select</option>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                    <option>Option 4</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">Title</label>
+                <input type="text" class="form-control" id="*******">
+              </div>
+              <div class="form-group col-md-12 col-lg-12">
+                <label for="*******">Description</label>
+                <textarea class="form-control" rows="2"></textarea>
+              </div>
+
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">ISO / LDC</label>
+                <input type="text" class="form-control" id="*******">
+              </div>
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">Contract Group</label>
+                <input type="text" class="form-control" id="*******">
+              </div>
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">Accounts</label>
+                <input type="text" class="form-control" id="*******">
+              </div>
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">Supplier Name</label>
+                <input type="text" class="form-control" id="*******">
+              </div>
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">Assign To</label>
+                <input type="text" class="form-control" id="*******">
+              </div>
+              <div class="form-group col-md-6 col-lg-6">
+
+              </div>
+              <div class="form-group col-md-6 col-lg-6">
+                <label for="*******">Files</label>
+                <ul class="list-group">
+                  <li style="list-style-type: none"><label style="width: 100%; padding: 10px;" class="btn btn-default btn-file">
+                  <input type="file" >
+                  </label></li>
+                  <!-- <li class="list-group-item">No Files Uploaded</li> -->
+                  <li class="list-group-item">Financials.csv <i class="fa fa-download pull-right" aria-hidden="true"></i><i class="fa fa-trash pull-right" aria-hidden="true"></i></li>
+                  <li class="list-group-item">Financials.csv <i class="fa fa-download pull-right" aria-hidden="true"></i></li>
+                  <li class="list-group-item">Financials.csv <i class="fa fa-download pull-right" aria-hidden="true"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-success">Save</button>
+          </div>
+          </div>
+      </div>
+  </div>
+
+</body>
+
+<script>
+  jQuery(document).ready(function($) {
+      $(".clickable-row").click(function() {
+          window.location = $(this).data("href");
+      });
+  });
+</script>
+
+</html>

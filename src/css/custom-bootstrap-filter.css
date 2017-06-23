@@ -1,0 +1,21 @@
+.component-filter{
+  background: #F3F3F3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+.gradient{
+  width: 100%;
+  height: 20px;
+  z-index: 1000;
+  /*background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 10%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) %); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */*/
+}
+
+.filter-body{
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,22 @@
+.comment-container{
+  width: 100%;
+}
+
+.comment{
+  padding: 40px 15px 10px;
+  background-image: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 4px 1px;
+  background-repeat: repeat-x;
+}
+
+.comment-title{
+  font-size: 10pt;
+  font-weight: 600;
+  padding: 10px 0px 20px;
+}
+
+.comment-body{
+  /*padding-left: 15px;*/
+  font-size: 12pt;
+}

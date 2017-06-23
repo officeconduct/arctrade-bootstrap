@@ -6,11 +6,11 @@
     "@gray": "lighten(@gray-base, 33.5%)",
     "@gray-light": "lighten(@gray-base, 46.7%)",
     "@gray-lighter": "lighten(@gray-base, 93.5%)",
-    "@brand-primary": "#7448FF",
-    "@brand-success": "#0bd670",
-    "@brand-info": "#2c41e4",
-    "@brand-warning": "#fb7f1c",
-    "@brand-danger": "#ff3c3c",
+    "@brand-primary": "#25B16C",
+    "@brand-success": "#76EFB2",
+    "@brand-info": "#76B9EF",
+    "@brand-warning": "#EFD376",
+    "@brand-danger": "#EF7676",
     "@body-bg": "#fff",
     "@text-color": "@gray-dark",
     "@link-color": "#fff",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=5d4f946fdb11e52371a889f800057562"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=9e3f21cf82155c66a8edca4d16679b2a"
 }
